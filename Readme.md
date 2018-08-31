@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/22/user/633273).
-* Наставник: `Неизвестно`.
+* Студент: [Игорь Казанцев](https://up.htmlacademy.ru/htmlcss/22/user/633273).
+* Наставник: [Андрей Чепулис](https://htmlacademy.ru/profile/id240237).
 
 ---
 
