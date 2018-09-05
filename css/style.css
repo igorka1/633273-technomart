@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Cuprum","PT Sans", sans-serif;
+  font-size: ;
+  line-height: ;
+  font-weight: ;
+  color: #000;
+  background-color: #ffffff;
+  background-position: top center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  outline: 1px dashed; /*..для визуализации*/
+}
+
+.main-header {
+  background-color: #f4f7f9;
+}
+
+.main-header-top {
+  background-color: #293449;
+  font-size: 17px;
+  color: #ffffff;
+}
+  
+.main-header-top-order a {
+  color: #ffffff;
+  }
+
+.main-header-top-order li {
+  list-style: none;
+}
+
+.main-header-info .main-header-describe,
+.main-header-info .main-header-phone {
+  color: #ee3643;
+}
+
+.main-header-info .main-header-describe {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.main-header-info .main-header-phone {
+  font-size: 21px;
+}
+
+.main-header-info .main-header-adress {
+  font-size: 14px;
+}
+
+.main-header-info .user-navigation {
+  font-size: 21px;
+  color: #000000;
+}
+
+.main-navigation a {
+  color: #ffffff;
+}
+
+.main-navigation-list {
+  background-color: #293449;
+}
+
+.offers-top-materials {
+  width: 300px;
+  height: 123px;
+  background-color: #ffbf47;
+}
+
+.offers-top-materials p {
+  color: #ffffff;
+}
+
+.offers-top-materials a {
+  color: #ffffff;
+}
+
+.offers-top-tool {
+  width: 300px;
+  height: 123px;
+  background-color: #3bbce3;
+}
+
+.offers-top-tool p {
+  color: #ffffff;
+}
+
+.offers-top-tool a {
+  color: #ffffff;
+}
+
+.offers-top-equipment {
+  width: 300px;
+  height: 123px;
+  background-color: #dc91d8;
+}
+
+.offers-top-equipment p {
+  color: #ffffff;
+}
+
+.offers-top-equipment a {
+  color: #ffffff;
+}
+
+.main-header-top-order li,
+.user-navigation li,
+.main-navigation-list li,
+.perforators-price-range li,
+.popular-goods-list,
+.catalogue-menu li {
+  list-style: none;
+}
