@@ -17,13 +17,13 @@
           <img src="#" alt="Техномарт">
         </a>
         <form class="search">
-          <label>Поиск:
-            <input type="text" name="search">
+          <label class="visually-hidden" for="search-goods">Поиск:
           </label>
+          <input type="text" name="search" id="search-goods" placeholder="Поиск:">
         </form>
         <ul class="main-header-top-order">
           <li><a href="#">Закладки: 0</a></li>
-          <li><a href="#">Корзина: 0</a></li>
+          <li><a href="#">Корзина: 10</a></li>
           <li><a class="btn-order" href="#">Оформить заказ</a></li>
         </ul>
       </div>
@@ -37,9 +37,11 @@
             <p class="main-header-phone">+7(812)555-05-55</p>
             <p class="main-header-adress">г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
           </div>
-          <ul class="user-navigation">
-            <li><a href="#">Войти</a></li>
-            <li><a href="#">Регистрация</a></li>
+          <ul class="user-navigation-active">
+            <li><a class="user-navigation-button" href="#">Равшан Джамшутович</a></li>
+            <li><a href="#">Мои заказы</a>
+              <a href="#">Личный кабинет</a>
+            </li>
           </ul>
         </div>
         <nav class="main-navigation">
@@ -59,7 +61,7 @@
   <main>
     <section class="breadcrumbs">
       <div class="container">
-        <ul class="">
+        <ul class="breadcrumbs-list">
           <li><a href="#">Каталог</a></li>
           <li><a href="#">Инструмент</a></li>
           <li><a href="#">Перфораторы</a></li>
@@ -71,7 +73,62 @@
         <h1 class="catalog-caption">Перфораторы</h1>
         <div class="catalog-filter">
           <p>Фильтр:</p>
-          <!--здесь будет фильтр-->
+          <form class="catalog-filter-list">
+            <fieldset>
+              <legend>Цена:</legend>
+              <ul>
+                <li class="catalog-filter-option"><input type="range" name="radio"></li>
+                <li class="catalog-filter-option"><input type="text" name="price" placeholder="0"> -
+                  <input type="text" name="price" placeholder="30000"></li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Производители:</legend>
+              <ul>
+                <li class="catalog-filter-option">
+                  <input type="checkbox" name="bosch" id="filter-bosch" checked>
+                  <label for="filter-bosch">Bosch
+                  </label>
+                </li>
+                <li class="catalog-filter-option">
+                  <input type="checkbox" name="interscol" id="filter-interscol">
+                  <label for="filter-interscol">Интерскол
+                  </label>
+                </li>
+                <li class="catalog-filter-option">
+                  <input type="checkbox" name="makita" id="filter-makita" checked>
+                  <label for="filter-makita">Makita
+                  </label>
+                </li>
+                <li class="catalog-filter-option">
+                  <input type="checkbox" name="dewalt" id="filter-dewalt">
+                  <label for="filter-dewalt">Dewalt
+                  </label>
+                </li>
+                <li class="catalog-filter-option">
+                  <input type="checkbox" name="hitachi" id="filter-hitachi">
+                  <label for="filter-hitachi">Hitachi
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Питание:</legend>
+              <ul>
+                <li class="catalog-filter-option">
+                  <input class="visually-hidden" type="radio" name="supply" value="accumulator" id="filter-accumulator" checked>
+                  <label for="filter-accumulator">Аккумуляторные
+                  </label>
+                </li>
+                <li class="catalog-filter-option">
+                  <input class="visually-hidden" type="radio" name="supply" value="network" id="filter-network">
+                  <label for="filter-network">Сетевые
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+            <button class="catalog-filter-button" type="submit">Показать</button>
+          </form>
         </div>
         <div class="catalog-sorting">
           <p class="catalog-sorting-title">Сортировка:</p>

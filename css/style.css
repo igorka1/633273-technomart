@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "Cuprum","PT Sans", sans-serif;
+  font-family: "Cuprum", "PT Sans", sans-serif;
   font-size: ;
   line-height: ;
   font-weight: ;
@@ -19,7 +19,8 @@ a {
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
-  outline: 1px dashed; /*..для визуализации*/
+  outline: 1px dashed;
+  /*..для визуализации*/
 }
 
 .main-header {
@@ -31,10 +32,10 @@ a {
   font-size: 17px;
   color: #ffffff;
 }
-  
+
 .main-header-top-order a {
   color: #ffffff;
-  }
+}
 
 .main-header-top-order li {
   list-style: none;
@@ -77,10 +78,7 @@ a {
   background-color: #ffbf47;
 }
 
-.offers-top-materials p {
-  color: #ffffff;
-}
-
+.offers-top-materials p,
 .offers-top-materials a {
   color: #ffffff;
 }
@@ -91,10 +89,7 @@ a {
   background-color: #3bbce3;
 }
 
-.offers-top-tool p {
-  color: #ffffff;
-}
-
+.offers-top-tool p,
 .offers-top-tool a {
   color: #ffffff;
 }
@@ -105,11 +100,30 @@ a {
   background-color: #dc91d8;
 }
 
-.offers-top-equipment p {
+.offers-top-equipment p,
+.offers-top-equipment a {
   color: #ffffff;
 }
 
-.offers-top-equipment a {
+.offers-bottom-discount {
+  width: 300px;
+  height: 123px;
+  background-color: #8ed78f;
+}
+
+.offers-bottom-discount p,
+.offers-bottom-discount a {
+  color: #ffffff;
+}
+
+.offers-bottom-delivery {
+  width: 300px;
+  height: 123px;
+  background-color: #ffc047;
+}
+
+.offers-bottom-delivery p,
+.offers-bottom-delivery a {
   color: #ffffff;
 }
 
@@ -120,4 +134,19 @@ a {
 .popular-goods-list,
 .catalogue-menu li {
   list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.company-contacts-popup .visually-hidden {
+  visibility: hidden;
 }

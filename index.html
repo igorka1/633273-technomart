@@ -17,9 +17,9 @@
           <img src="#" alt="Техномарт">
         </a>
         <form class="search">
-          <label>Поиск:
-            <input type="text" name="search">
+          <label class="visually-hidden" for="search-goods">Поиск:
           </label>
+          <input type="text" name="search" id="search-goods" placeholder="Поиск:">
         </form>
         <ul class="main-header-top-order">
           <li><a href="#">Закладки: 0</a></li>
@@ -38,8 +38,8 @@
             <p class="main-header-adress">г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
           </div>
           <ul class="user-navigation">
-            <li><a href="#">Войти</a></li>
-            <li><a href="#">Регистрация</a></li>
+            <li><a class="user-navigation-button" href="#">Войти</a></li>
+            <li><a class="user-navigation-button" href="#">Регистрация</a></li>
           </ul>
         </div>
         <nav class="main-navigation">
@@ -219,7 +219,9 @@
           <p>Вы можете забрать товар сами,
             <br>заехав в наш офис.
           </p>
-          <img src="#" alt="">
+          <div class="company-contacts-popup" "visually-hidden">
+            <img src="img/popup_map.jpg" alt="Как к нам добраться">
+          </div>
           <a class="btn btn-link" href="#">Заблудились? Напишите нам!</a>
         </div>
       </div>
