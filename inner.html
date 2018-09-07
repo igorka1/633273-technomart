@@ -13,10 +13,10 @@
   <header class="main-header">
     <div class="main-header-top">
       <div class="container">
-        <a class="main-header-logo">
-          <img src="#" alt="Техномарт">
+        <a class="main-header-logo " href="index.html">
+          <img src="img/tecnomart-logo_h.png" width="220" height="47" alt="Техномарт">
         </a>
-        <form class="search">
+        <form class="search" method="post" action="">
           <label class="visually-hidden" for="search-goods">Поиск:
           </label>
           <input type="text" name="search" id="search-goods" placeholder="Поиск:">
@@ -86,27 +86,27 @@
               <legend>Производители:</legend>
               <ul>
                 <li class="catalog-filter-option">
-                  <input type="checkbox" name="bosch" id="filter-bosch" checked>
+                  <input class="visually-hidden" type="checkbox" name="bosch" id="filter-bosch" checked>
                   <label for="filter-bosch">Bosch
                   </label>
                 </li>
                 <li class="catalog-filter-option">
-                  <input type="checkbox" name="interscol" id="filter-interscol">
+                  <input class="visually-hidden" type="checkbox" name="interscol" id="filter-interscol">
                   <label for="filter-interscol">Интерскол
                   </label>
                 </li>
                 <li class="catalog-filter-option">
-                  <input type="checkbox" name="makita" id="filter-makita" checked>
+                  <input class="visually-hidden" type="checkbox" name="makita" id="filter-makita" checked>
                   <label for="filter-makita">Makita
                   </label>
                 </li>
                 <li class="catalog-filter-option">
-                  <input type="checkbox" name="dewalt" id="filter-dewalt">
+                  <input class="visually-hidden" type="checkbox" name="dewalt" id="filter-dewalt">
                   <label for="filter-dewalt">Dewalt
                   </label>
                 </li>
                 <li class="catalog-filter-option">
-                  <input type="checkbox" name="hitachi" id="filter-hitachi">
+                  <input class="visually-hidden" type="checkbox" name="hitachi" id="filter-hitachi">
                   <label for="filter-hitachi">Hitachi
                   </label>
                 </li>
@@ -260,7 +260,7 @@
       <div class="container">
         <div class="main-footer-top-above">
           <a class="main-footer-logo" href="index.html">
-            <img src="#" alt="Техномарт">
+            <img src="img/technomart-logo_f.png" width="220" height="68" alt="Техномарт">
           </a>
           <ul class="main-footer-navigate">
             <li><a href="#">Компания</a></li>
@@ -289,9 +289,9 @@
           <br>Все права защищены
         </p>
         <ul class="main-footer-socials">
-          <li><a class="btn-socials" href="#">Вконтакте</a></li>
-          <li><a class="btn-socials" href="#">Фэйсбук</a></li>
-          <li><a class="btn-socials" href="#">Инстаграм</a></li>
+          <li><a class="btn-socials" href="#"><span class="visually-hidden">Вконтакте</span></a></li>
+          <li><a class="btn-socials" href="#"><span class="visually-hidden">Фэйсбук</span></a></li>
+          <li><a class="btn-socials" href="#"><span class="visually-hidden">Инстаграм</span></a></li>
         </ul>
         <p class="web-contacts">Обратная связь:
           <br><a href="#">mail@htmlacademy.ru</a>
@@ -302,6 +302,15 @@
       </div>
     </div>
   </footer>
+  <div class="popup-basket">
+    <div class="popup-basket-top">
+      <p>Товар добавлен в корзину!</p>
+    </div>
+    <div class="popup-basket-bottom">
+      <button type="submit">Оформить заказ</button>
+      <a class="button" href="#">Продолжить покупки</a>
+    </div>
+  </div>
 </body>
 
 </html>

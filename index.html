@@ -14,9 +14,9 @@
     <div class="main-header-top">
       <div class="container">
         <a class="main-header-logo">
-          <img src="#" alt="Техномарт">
+          <img src="img/tecnomart-logo_h.png" width="220" height="47" alt="Техномарт">
         </a>
-        <form class="search">
+        <form class="search" method="post" action="">
           <label class="visually-hidden" for="search-goods">Поиск:
           </label>
           <input type="text" name="search" id="search-goods" placeholder="Поиск:">
@@ -60,20 +60,20 @@
     <section class="offers">
       <div class="container">
         <div class="offers-top">
-          <div class="offers-top-materials">
+          <div class="offers-tile offers-top-materials">
             <p>Материалы</p>
             <a class="btn-offers" href="#">На любой вкус</a>
           </div>
-          <div class="offers-top-tool">
+          <div class="offers-tile offers-top-tool">
             <p>Инструмент</p>
             <a class="btn-offers" href="#">На все случаи</a>
           </div>
-          <div class="offers-top-equipment">
+          <div class="offers-tile offers-top-equipment">
             <p>Техника</p>
             <a class="btn-offers" href="#">Для стройки</a>
           </div>
         </div>
-        <div class="offers-bottom">
+        <div class="offers-tile offers-bottom">
           <div class="offers-bottom-slider">
             <img src="img/sliderphoto_1.jpg" width="620" height="266" alt="Дрели">
             <div class="slider-describtion">
@@ -82,19 +82,19 @@
             </div>
             <a class="btn-slider" href="inner.html">Открыть каталог</a>
             <div class="slider-controls">
-              <button type="button">Вперед</button>
-              <button type="button">Назад</button>
+              <button type="button"><span class="visually-hidden">Вперед</span></button>
+              <button type="button"><span class="visually-hidden">Назад</span></button>
             </div>
             <div class="slider-toggle">
-              <div class="slider-indicator">1</div>
-              <div class="slider-indicator current">2</div>
+              <div class="slider-indicator"><span class="visually-hidden">1</span></div>
+              <div class="slider-indicator current"><span class="visually-hidden">2</span></div>
             </div>
           </div>
-          <div class="offers-bottom-discount">
+          <div class="offers-tile offers-bottom-discount">
             <p>Скидки 50%</p>
             <a class="btn-offers" href="#">На 350 товаров</a>
           </div>
-          <div class="offers-bottom-delivery">
+          <div class="offers-tile offers-bottom-delivery">
             <p>Доставка</p>
             <a class="btn-offers" href="#">Бесплатно</a>
           </div>
@@ -122,7 +122,7 @@
           </li>
           <li>
             <div class="popular-goods-img">
-              <img src="/img/perf_2.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 3000">
+              <img src="img/perf_2.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 3000">
             </div>
             <h3>Перфоратор Bosh BFG 3000</h3>
             <p>22500 Р.</p>
@@ -134,7 +134,7 @@
           </li>
           <li>
             <div class="popular-goods-img">
-              <img src="/img/perf_3.jpg" width="144" height="128" alt="Перфоратор Bosch BFG 6000">
+              <img src="img/perf_3.jpg" width="144" height="128" alt="Перфоратор Bosch BFG 6000">
             </div>
             <h3>Перфоратор Bosh BFG 6000</h3>
             <p>30500 Р.</p><a class="btn" href="#">25500 Р.</a>
@@ -145,7 +145,7 @@
           </li>
           <li>
             <div class="popular-goods-img">
-              <img src="/img/perf_2.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 2000">
+              <img src="img/perf_2.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 2000">
             </div>
             <h3>Перфоратор Bosh BFG 2000</h3>
             <a class="btn" href="#">12500 Р.</a>
@@ -219,9 +219,6 @@
           <p>Вы можете забрать товар сами,
             <br>заехав в наш офис.
           </p>
-          <div class="company-contacts-popup" "visually-hidden">
-            <img src="img/popup_map.jpg" alt="Как к нам добраться">
-          </div>
           <a class="btn btn-link" href="#">Заблудились? Напишите нам!</a>
         </div>
       </div>
@@ -232,7 +229,7 @@
       <div class="container">
         <div class="main-footer-top-above">
           <a class="main-footer-logo">
-            <img src="#" alt="Техномарт">
+            <img src="img/technomart-logo_f.png" width="220" height="68" alt="Техномарт">
           </a>
           <ul class="main-footer-navigate">
             <li><a href="#">Компания</a></li>
@@ -261,9 +258,9 @@
           <br>Все права защищены
         </p>
         <ul class="main-footer-socials">
-          <li><a class="btn-socials" href="#">Вконтакте</a></li>
-          <li><a class="btn-socials" href="#">Фэйсбук</a></li>
-          <li><a class="btn-socials" href="#">Инстаграм</a></li>
+          <li><a class="btn-socials" href="#"><span class="visually-hidden">Вконтакте</span></a></li>
+          <li><a class="btn-socials" href="#"><span class="visually-hidden">Фэйсбук</span></a></li>
+          <li><a class="btn-socials" href="#"><span class="visually-hidden">Инстаграм</span></a></li>
         </ul>
         <p class="web-contacts">Обратная связь:
           <br><a href="#">mail@htmlacademy.ru</a>
@@ -274,6 +271,40 @@
       </div>
     </div>
   </footer>
+  <div class="popup-map">
+    <img src="img/popup_map.jpg" alt="Как к нам добраться">
+  </div>
+  <div class="popup-feedback">
+    <form class="popup-feedback-form">
+      <div class="popup-feedback-form-top">
+        <p>
+          <label for="surname">Ваше имя:</label>
+          <input type="text" name="field-name" id="surname" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label for="mail">Ваш e-mail:</label>
+          <input type="text" name="field-mail" id="mail" placeholder="Ваш e-mail:">
+        </p>
+        <p>
+          <label for="massage">Текст письма:</label>
+          <textarea name="field-massage" id="massage" placeholder="В свободной форме"></textarea>
+        </p>
+      </div>
+      <div class="popup-feedback-form-bottom">
+        <button type="submit">Отправить</button>
+      </div>
+      <button class="close"><span class="visually-hidden">Закрыть</span></button>
+    </form>
+    <div class="popup-basket">
+      <div class="popup-basket-top">
+        <p>Товар добавлен в корзину!</p>
+      </div>
+      <div class="popup-basket-bottom">
+        <button type="submit">Оформить заказ</button>
+        <a class="button" href="#">Продолжить покупки</a>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
