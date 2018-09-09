@@ -1,12 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-
   font-family: "Cuprum", "PT Sans", sans-serif;
-  font-size: ;
-  line-height: ;
-  font-weight: ;
-  color: #000;
+  font-size: 13px;
+  font-weight: normal;
+  color: #000000;
   background-color: #ffffff;
   background-position: top center;
 }
@@ -70,87 +68,420 @@ a {
   font-size: 14px;
 }
 
-.main-header-info .user-navigation {
+.main-header-info .user-navigation-button {
   font-size: 21px;
   color: #000000;
+}
+
+.main-navigation {
+  display: flex;
+}
+
+.main-navigation-list {
+  display: flex;
+}
+
+.main-navigation-list li {
+  padding: 20px 35px;
+}
+
+.main-navigation-list li:hover {
+  background-color: #1d2739;
 }
 
 .main-navigation a {
   color: #ffffff;
 }
 
+.user-navigation-button:hover {
+  color: #ee3643;
+}
+
+.user-navigation-button:active {
+  color: #c5c5c5;
+}
+
 .main-navigation-list {
   background-color: #293449;
 }
 
-.offers-top-materials {
+.user-navigation-active .private {
+  text-decoration-line: underline;
+  font-size: 16px;
+  color: #3f4e66;
+}
+
+.user-navigation-active .private:hover {
+  color: #ee3643;
+}
+
+.user-navigation-active .private:active {
+  color: #b7bfc8;
+}
+
+.breadcrumbs-list {
+  display: flex;
+}
+
+.offers-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offers-tile {
   width: 300px;
   height: 123px;
+  color: #ffffff;
+}
+
+.offers-tile p {
+  font-size: 24px;
+}
+
+.offers-tile a {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.offers-top-materials {
   background-color: #ffbf47;
 }
 
-.offers-top-materials p,
-.offers-top-materials a {
-  color: #ffffff;
-}
-
 .offers-top-tool {
-  width: 300px;
-  height: 123px;
   background-color: #3bbce3;
 }
 
-.offers-top-tool p,
-.offers-top-tool a {
-  color: #ffffff;
-}
-
 .offers-top-equipment {
-  width: 300px;
-  height: 123px;
   background-color: #dc91d8;
 }
 
-.offers-top-equipment p,
-.offers-top-equipment a {
-  color: #ffffff;
-}
-
 .offers-bottom-discount {
-  width: 300px;
-  height: 123px;
   background-color: #8ed78f;
 }
 
-.offers-bottom-discount p,
-.offers-bottom-discount a {
-  color: #ffffff;
-}
-
 .offers-bottom-delivery {
-  width: 300px;
-  height: 123px;
   background-color: #ffc047;
 }
 
-.offers-bottom-delivery p,
-.offers-bottom-delivery a {
+.btn-offers {
+  width: 136px;
+  height: 38px;
+  background-color: #e5e5e5;
+  border-radius: 2px;
+  opacity: 0.5;
+  padding: 5px 25px;
+}
+
+.btn-offers:hover {
+  background-color: #cccccc;
+}
+
+.btn-offers:active {
+  background-color: #b2b2b2;
+}
+
+.slider-describtion h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+slider-describtion p {
+  font-size: 18px;
+}
+
+.btn-slider {
+  font-size: 14px;
+  width: 196px;
+  height: 38px;
+  border-radius: 3px;
+  background-color: #ee3643;
+  padding: 10px 45px;
   color: #ffffff;
+  text-transform: uppercase;
+}
+
+.btn-slider:hover {
+  background-color: #ca2c37;
+}
+
+.btn-slider:active {
+  background-color: #ba2732;
+}
+
+.popular-goods {
+  display: flex;
+}
+
+.popular-goods-top {
+  background-color: #f9f5f0;
+}
+
+.popular-goods-top p {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #32425c;
+}
+
+.popular-goods-top a {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/*.popular-goods-list {
+  display: flex;
+}*/
+
+.popular-goods-list h3 {
+  font-size: 18px;
+}
+
+.popular-goods-list p {
+  font-family: "PT sans";
+  font-size: 17px;
+  color: #a9a9a9;
+  text-decoration-line: line-through;
+}
+
+.btn-link {
+  font-size: 14px;
+  width: 252px;
+  height: 38px;
+  border-radius: 3px;
+  background-color: #ee3643;
+  padding: 10px 45px;
+  color: #ffffff;
+}
+
+.btn-link:hover {
+  background-color: #ca2c37;
+}
+
+.btn-link:active {
+  background-color: #ba2732;
+}
+
+.popular-manufacturers {
+  display: flex;
+}
+
+.popular-manufacturers-top {
+  background-color: #f9f5f0;
+}
+
+.popular-manufacturers-top p {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.popular-manufacturers-top a {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.popular-manufacturers-list {
+  display: flex;
+}
+
+.popular-goods-list .btn {
+  font-family: "PT sans";
+  font-size: 17px;
+}
+
+.popular-goods-button {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.services {
+  background-color: #f4f8f9;
+}
+
+.services-top-title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.services-bottom-list {
+  font-size: 21px;
+}
+
+.services-slider-title {
+  font-size: 36px;
+  color: #32425c;
+  text-transform: uppercase;
+}
+
+.company-features h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.company-features-transport {
+  font-size: 18px;
+}
+
+.company .btn-link {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.company-contacts .company-contacts-title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.catalog-caption {
+  font-size: 30px;
+  color: #32425c;
+  text-transform: uppercase;
+  background-color: #f2f6f8;
+}
+
+.catalog-description {
+  background-color: #f2f6f8;
+}
+
+.catalog-description-title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.catalog-filter-title {
+  font-family: "PT sans";
+  text-transform: uppercase;
+  background-color: #f7f3ec;
+}
+
+.catalog-sorting {
+  text-transform: uppercase;
+  background-color: #f7f3ec;
+}
+
+.catalog-sorting-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.catalog-sorting-item {
+  font-family: "PT sans";
+  border-bottom: 1px #ee3643;
+  border-bottom-style: dotted;
+  margin-right: 70px;
+}
+
+.catalog-sorting-item a {
+  color: #cac7c1;
+}
+
+.catalog-sorting-item:hover {
+  border-bottom: 1px #ee3643;
+  border-bottom-style: solid;
+}
+
+.catalog-sorting-item a:hover {
+  color: #000000;
+}
+
+.catalog-sorting-item:active {
+  border-bottom-style: hidden;
+}
+
+.catalog-sorting-item a:active {
+  color: #f6949b;
+}
+
+.catalog-paginator {
+  display: flex;
+  font-family: "PT sans";
+}
+
+.catalog-paginator-item {
+  width: 38px;
+  height: 38px;
+  border: 1px solid #e5e5e5;
+  margin-left: 12px;
+  text-align: center;
+}
+
+.catalog-paginator-next {
+  width: 140px;
+  height: 38px;
+  border: 1px solid #e5e5e5;
+  margin-left: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main-footer-top {
+  display: flex;
+  background-color: #32425c;
+}
+
+.main-footer-bottom {
+  background-color: #293449;
+}
+
+.main-footer-navigate {
+  display: flex;
+  font-size: 18px;
+}
+
+.main-footer-navigate a {
+  color: #f3f7f9;
+}
+
+.main-footer-offers {
+  display: flex;
+  font-size: 18px;
+}
+
+.main-footer-offers a {
+  color: #ffd180;
+}
+
+.main-footer-contacts {
+  color: #f3f7f9;
+  font-size: 18px;
+}
+
+.page-copyrighter,
+.web-contacts {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.web-contacts a {
+  color: #ffd180;
 }
 
 .main-header-top-order li,
 .user-navigation li,
 .main-navigation-list li,
+.user-navigation-active,
+.breadcrumbs-list,
 .perforators-price-range li,
 .popular-goods-list,
-.catalogue-menu li {
+.popular-manufacturers-list,
+.catalogue-menu li,
+.catalog-filter-option,
+.catalog-sorting-list,
+.catalog-paginator,
+.services-bottom-list li,
+.company-features-transport,
+.main-footer-navigate,
+.main-footer-offers,
+.main-footer-socials {
   list-style: none;
 }
 
-.popup-map {
+.popup-map,
+.popup-feedback,
+.popup-basket {
   display: none;
-}
-
-.offers-tile {
-  
 }
