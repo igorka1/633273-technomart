@@ -16,7 +16,7 @@
         <a class="main-header-logo">
           <img src="img/tecnomart-logo_h.png" width="220" height="47" alt="Техномарт">
         </a>
-        <form class="search" method="post" action="">
+        <form class="search" method="post" action="https://echo.htmlacademy.ru">
           <label class="visually-hidden" for="search-goods">Поиск:
           </label>
           <input type="text" name="search" id="search-goods" placeholder="Поиск:">
@@ -31,15 +31,15 @@
     <div class="main-header-bottom">
       <div class="container">
         <div class="main-header-info">
-          <p class="main-header-describe">Интернет-магазин строительных материалов
-            и инструментов для ремонта</p>
+          <p class="main-header-describe">Интернет-магазин <br>строительных материалов
+            <br>и инструментов для ремонта</p>
           <div class="main-header-contacts">
             <p class="main-header-phone">+7(812)555-05-55</p>
             <p class="main-header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
           </div>
           <ul class="user-navigation">
-            <li><a class="user-navigation-button" href="#">Войти</a></li>
-            <li><a class="user-navigation-button" href="#">Регистрация</a></li>
+            <li><a class="user-navigation-button enter" href="#">Войти</a></li>
+            <li><a class="user-navigation-button registr" href="#">Регистрация</a></li>
           </ul>
         </div>
         <nav class="main-navigation">
@@ -82,37 +82,39 @@
             </div>
             <a class="btn-slider" href="inner.html">Открыть каталог</a>
             <div class="slider-controls">
-              <button type="button"><span class="visually-hidden">Вперед</span></button>
-              <button type="button"><span class="visually-hidden">Назад</span></button>
+              <button type="button"><span class="visually-hidde">Назад</span></button>
+              <button type="button"><span class="visually-hidde">Вперед</span></button>
             </div>
             <div class="slider-toggle">
-              <div class="slider-indicator"><span class="visually-hidden">1</span></div>
-              <div class="slider-indicator current"><span class="visually-hidden">2</span></div>
+              <div class="slider-indicator"><span class="visually-hidde">1</span></div>
+              <div class="slider-indicator current"><span class="visually-hidde">2</span></div>
             </div>
           </div>
-          <div class="offers-tile offers-bottom-discount">
-            <p>Скидки 50%</p>
-            <a class="btn-offers" href="#">На 350 товаров</a>
-          </div>
-          <div class="offers-tile offers-bottom-delivery">
-            <p>Доставка</p>
-            <a class="btn-offers" href="#">Бесплатно</a>
+          <div class="offers-tile-bottom">
+            <div class="offers-tile offers-bottom-discount">
+              <p>Скидки 50%</p>
+              <a class="btn-offers" href="#">На 350 товаров</a>
+            </div>
+            <div class="offers-tile offers-bottom-delivery">
+              <p>Доставка</p>
+              <a class="btn-offers" href="#">Бесплатно</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="popular-goods">
       <div class="container">
-        <div class="popular-goods-top">
+        <div class="popular-top">
           <p>Популярные товары:</p>
           <a class="btn btn-link" href="#">Все популярные товары</a>
         </div>
         <ul class="popular-goods-list">
           <li>
             <div class="popular-goods-img">
-              <img src="img/perf_1.jpg" width="184" height="164" alt="Перфоратор Bosch BFG 9000">
+              <img src="img/perf_1.jpg" width="184" height="81" alt="Перфоратор Bosch BFG 9000">
             </div>
-            <h3>Перфоратор Bosh BFG 9000</h3>
+            <h3>Перфоратор BOSCH BFG 9000</h3>
             <p>32500 Р.</p>
             <a class="btn" href="#">25500 Р.</a>
             <div class="popular-goods-button">
@@ -124,7 +126,7 @@
             <div class="popular-goods-img">
               <img src="img/perf_2.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 3000">
             </div>
-            <h3>Перфоратор Bosh BFG 3000</h3>
+            <h3>Перфоратор BOSCH BFG 3000</h3>
             <p>22500 Р.</p>
             <a class="btn" href="#">15500 Р.</a>
             <div class="popular-goods-button">
@@ -134,9 +136,9 @@
           </li>
           <li>
             <div class="popular-goods-img">
-              <img src="img/perf_3.jpg" width="144" height="128" alt="Перфоратор Bosch BFG 6000">
+              <img src="img/perf_3.jpg" width="127" height="89" alt="Перфоратор Bosch BFG 6000">
             </div>
-            <h3>Перфоратор Bosh BFG 6000</h3>
+            <h3>Перфоратор BOSCH BFG 6000</h3>
             <p>30500 Р.</p><a class="btn" href="#">25500 Р.</a>
             <div class="popular-goods-button">
               <a class="popular-goods-button-buy" href="#">Купить</a>
@@ -144,10 +146,10 @@
             </div>
           </li>
           <li>
-            <div class="popular-goods-img">
+            <div class="popular-goods-img hidden">
               <img src="img/perf_2.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 2000">
             </div>
-            <h3>Перфоратор Bosh BFG 2000</h3>
+            <h3>Перфоратор BOSCH BFG 2000</h3>
             <a class="btn" href="#">12500 Р.</a>
             <div class="popular-goods-button">
               <a class="popular-goods-button-buy" href="#">Купить</a>
@@ -159,7 +161,7 @@
     </section>
     <section class="popular-manufacturers">
       <div class="container">
-        <div class="popular-manufacturers-top">
+        <div class="popular-top">
           <p>Популярные производители:</p>
           <a class="btn btn-link" href="#">Все производители</a>
         </div>
@@ -217,7 +219,8 @@
           <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
             <br>строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
           </p>
-          <p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:
+          <p>Мы можем доставить ваш товар в самые отдаленные точки России!
+            <br>Техномарт работает со многими транспортными компаниями:
           </p>
           <ul class="company-features-transport">
             <li>Деловые линии</li>
@@ -228,9 +231,10 @@
         </div>
         <div class="company-contacts">
           <p class="company-contacts-title">Контакты</p>
-          <p>Вы можете забрать товар сами,
+          <p class="company-contacts-description">Вы можете забрать товар сами,
             <br>заехав в наш офис.
           </p>
+          <img class="company-contacts-map" src="img/map.jpg" width="300" height="150" alt=" Карта">
           <a class="btn btn-link" href="#">Заблудились? Напишите нам!</a>
         </div>
       </div>
@@ -252,7 +256,7 @@
           </ul>
         </div>
         <div class="main-footer-top-under">
-          <p class="main-footer-contacts">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+          <p class="main-footer-contacts">г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8
             <br>+7(812)555-05-55
           </p>
           <ul class="main-footer-offers">
